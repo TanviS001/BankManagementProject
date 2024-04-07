@@ -8,7 +8,7 @@ def create_connection():
         connection = mysql.connector.connect(
             host="remote",
             user="root",
-            password="tanvi@123",
+            password=" ",
             database="bank_db"
         )
         if connection.is_connected():
